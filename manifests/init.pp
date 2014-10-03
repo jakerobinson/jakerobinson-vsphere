@@ -1,0 +1,6 @@
+# == Class: vsphere
+
+class vsphere {
+
+
+}

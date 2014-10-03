@@ -1,0 +1,17 @@
+{
+  "name": "jakerobinson-vsphere",
+  "version": "0.1.2",
+  "author": "jakerobinson",
+  "summary": "Basic vSphere implementation",
+  "license": "Copyright VMware 2014",
+  "source": "local",
+  "project_page": "nowhere",
+  "issues_url": "nowhere",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"vmware-vmware_lib"},
+    {"name":"vmware-vcsa"},
+    {"name":"vmware-vcenter"}
+  ]
+}
+
