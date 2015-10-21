@@ -26,7 +26,9 @@ class vsphere::host (
     password  => $esx_password,
     dateTimeConfig => {
       'ntpConfig' => {
-        'server' => $esx_ntp_servers,
+        'running' => true,
+        'policy'  => 'automatic',
+        'server'  => $esx_ntp_servers,
       },
       'timeZone' => {
         'key' => 'UTC',
@@ -34,4 +36,5 @@ class vsphere::host (
     },
     transport => Transport['vcenter'],
   }
+
 }
